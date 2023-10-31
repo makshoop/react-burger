@@ -1,0 +1,12 @@
+.main-paige {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    overflow-y: auto;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
