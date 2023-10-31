@@ -1,0 +1,51 @@
+.scroll-container {
+    max-height: 70vh; 
+    margin: 100px 0 0 40px;
+    width: 600px;
+
+    &::-webkit-scrollbar {
+        width: 10px; 
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #2f2f37; 
+        margin-top: 56px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #8585ad; 
+
+    }
+}
+
+.constructor-element {
+    margin: 8px;
+}
+
+.constructor-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.total-sum-order {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 600px;
+    padding: 40px 0 0 40px;
+}
+
+.total-sum-order p {
+    display: contents;
+    height: 70px;
+    width: 200px;
+}
+
+.total-sum-order svg {
+    width: 54px;
+    height: 54px;
+    padding: 0 20px 0 10px;
+}
+
